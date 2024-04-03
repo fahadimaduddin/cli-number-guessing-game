@@ -1,10 +1,13 @@
 {
-  "name": "cli-number-guessing-game-by-fahadimaduddin",
-  "version": "1.0.0",
-  "description": "A simple CLI based number guessing game",
+  "name": "@fahadimaduddin/cli-number-guessing-game",
+  "version": "1.0.2",
+  "description": "A simple CLI-based number guessing game implemented using TypeScript and Node.js with the Inquirer library.",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
